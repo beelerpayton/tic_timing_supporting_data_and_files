@@ -22,4 +22,4 @@ This code is written in C++, and can be downloaded and compiled using Xcode (Mac
 
 ## Publications
 
-  * [Beeler P., Jensen N.O., Kim S., Robichaux-Viehoever A., Schlaggar B., Greene D., Black K., and Chakrabarty R.K. (2022) Fractality of tics as a quantitative assessment tool for Tourette syndrome. Journal of the Royal Society Interface](https://doi.org/10.1098/rsif.2021.0742)
+  * [Beeler P., Jensen N.O., Kim S., Robichaux-Viehoever A., Schlaggar B., Greene D., Black K., and Chakrabarty R.K. (2022) Fractality of tics as a quantitative assessment tool for Tourette syndrome. Journal of the Royal Society Interface.](https://doi.org/10.1098/rsif.2021.0742)
