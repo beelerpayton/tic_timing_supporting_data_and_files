@@ -6,21 +6,20 @@
 
 ## Inputs
 
-  * Max time - the maximum time at which a tic can be recorded. 
-    * Example: If tics are monitored for ten minutes, 
-
-## Documentation
-
-http://pyBCabs_fake.readthedocs.io/en/latest
+  * Max time - the maximum time at which a tic can be recorded, in seconds. 
+   	* Example: If tics are monitored for ten minutes, the max time is 600 seconds.
+  * dt - time resolution of tic detection, in seconds. All tic detections will be rounded to the same decimal place as dt. Additionally, any consecutive tics which are recorded as occuring at the same time will be separated by dt.
+  	*  Example: Tics can only be distinguished if they occur more than 0.1 seconds apart. All recorded tic times will be rounded to the first decimal place. If two consecutive tics are recorded at 10 seconds, the first tic time will remain at 10 seconds and the second tic time will be changed to 10.1 seconds. 
+  *  Filename - full path to input data file. Each row reflects the tic timing of an individual patient. The first column is the patient identifier, and subsequent columns contain times when a tic is detected, in seconds. Must be space-delimited or tab-delimited.
+  	*  Example: See example_input.txt
+  *  Output directory - directiry where output data will be written. Must not end in '/'.
+  	*  Good example: /Users/username/Desktop
+  	*  Bad example: /Users/paytonbeeler/Desktop/
 
 ## Installation
 
-	pip install pyBCabs
-
-Or clone from source and run
-
-	python setup.py install
+This code is written in C++, and can be downloaded and compiled using Xcode (Mac), Microsoft Visual Studio (Windows), or another appropriate compiler.
 
 ## Publications
 
-  * [Beeler P., Heinson W.R., and Chakrabarty R.K. (2022) Paper Title. Journal](doi)
+  * [Beeler P., Jensen N.O., Kim S., Robichaux-Viehoever A., Schlaggar B., Greene D., Black K., and Chakrabarty R.K. (2022) Fractality of tics as a quantitative assessment tool for Tourette syndrome. Journal of the Royal Society Interface](https://doi.org/10.1098/rsif.2021.0742)
