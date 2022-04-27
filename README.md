@@ -7,14 +7,14 @@
 ## Inputs
 
   * Max time - the maximum time at which a tic can be recorded, in seconds. 
-   	* Example: If tics are monitored for ten minutes, the max time is 600 seconds.
+   	 * Example: If tics are monitored for ten minutes, the max time is 600 seconds.
   * dt - time resolution of tic detection, in seconds. All tic detections will be rounded to the same decimal place as dt. Additionally, any consecutive tics which are recorded as occuring at the same time will be separated by dt.
-  	*  Example: Tics can only be distinguished if they occur more than 0.1 seconds apart. All recorded tic times will be rounded to the first decimal place. If two consecutive tics are recorded at 10 seconds, the first tic time will remain at 10 seconds and the second tic time will be changed to 10.1 seconds. 
+  	 *  Example: Tics can only be distinguished if they occur more than 0.1 seconds apart. All recorded tic times will be rounded to the first decimal place. If two consecutive tics are recorded at 10 seconds, the first tic time will remain at 10 seconds and the second tic time will be changed to 10.1 seconds. 
   *  Filename - full path to input data file. Each row reflects the tic timing of an individual patient. The first column is the patient identifier, and subsequent columns contain times when a tic is detected, in seconds. Must be space-delimited or tab-delimited.
-  	*  Example: See example_input.txt
+  	 *  Example: See example_input.txt
   *  Output directory - directiry where output data will be written. Must not end in '/'.
-  	*  Good Example: /Users/username/Desktop
-  	*  Bad Example: /Users/paytonbeeler/Desktop/
+  	 *  Good Example: /Users/username/Desktop
+  	 *  Bad Example: /Users/paytonbeeler/Desktop/
 
 ## Installation
 
