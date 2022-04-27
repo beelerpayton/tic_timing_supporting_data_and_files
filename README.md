@@ -13,8 +13,8 @@
   *  Filename - full path to input data file. Each row reflects the tic timing of an individual patient. The first column is the patient identifier, and subsequent columns contain times when a tic is detected, in seconds. Must be space-delimited or tab-delimited.
   	*  Example: See example_input.txt
   *  Output directory - directiry where output data will be written. Must not end in '/'.
-  	*  Good example: /Users/username/Desktop
-  	*  Bad example: /Users/paytonbeeler/Desktop/
+  	*  Good Example: /Users/username/Desktop
+  	*  Bad Example: /Users/paytonbeeler/Desktop/
 
 ## Installation
 
