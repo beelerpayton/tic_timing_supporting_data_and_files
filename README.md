@@ -26,7 +26,7 @@
 
   * Values for fractal dimension should be roughly between 1 and 2. If values lie significantly out of this range, verify that trajectory is being generated properly by examining the trajectory (stored in trajectory.csv output file).
   * Output to screen should be the number of trajectories completed followed by the patient ID.
-   	 * Example screen output: 
+   	 * Example screen output: \n
    	     1, patient_ID_#1
          2, patient_ID_#2
          ....
