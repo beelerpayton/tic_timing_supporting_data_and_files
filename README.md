@@ -14,7 +14,7 @@
   	 *  Example: See [example_input.txt](https://github.com/beelerpayton/tic_timing_supporting_data_and_files/blob/main/example_input.txt)
   *  Output directory - directiry where output data will be written. Must not end in '/'.
   	 *  Good Example: /Users/username/Desktop
-  	 *  Bad Example: /Users/paytonbeeler/Desktop/
+  	 *  Bad Example: /Users/username/Desktop/
 
 ## Installation
 
