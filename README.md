@@ -16,6 +16,12 @@
   	 *  Good Example: /Users/username/Desktop
   	 *  Bad Example: /Users/username/Desktop/
 
+## Outputs
+
+  * Df.csv - Shows patient ID and corresponding fractal dimension.
+  * trajectories.csv - First column is time (in seconds), subsequent columns are the position of walkers at the time given by the first column. First row is header with patient ID.
+  * temp.txt - temporary file that reads input data line-by-line. Can be discarded after code has finished running.
+
 ## Installation
 
 This code is written in C++, and can be downloaded and compiled using Xcode (Mac), Microsoft Visual Studio (Windows), or another appropriate compiler.
